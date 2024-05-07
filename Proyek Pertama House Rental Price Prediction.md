@@ -96,22 +96,20 @@ Mengimpor RandomForestRegressor dari library scikit-learn dan membuat model pred
 -`n_jobs`: Jumlah pekerjaan yang akan dijalankan paralel, diatur ke -1 untuk menggunakan semua core CPU yang tersedia.
 Setelah model dibuat, dilakukan pelatihan menggunakan data latih (X_train dan y_train), dan nilai MSE dari prediksi terhadap data latih dihitung menggunakan fungsi mean_squared_error dan disimpan dalam dataframe `models` pada baris yang sesuai dengan model Random Forest dan kolom 'train_mse'.
 - Boosting 
-Kode di atas mengimpor AdaBoostRegressor dari library scikit-learn dan membuat model prediksi menggunakan algoritma Boosting. Parameter-parameter yang digunakan adalah sebagai berikut:
+Mengimpor AdaBoostRegressor dari library scikit-learn dan membuat model prediksi menggunakan algoritma Boosting. Parameter-parameter yang digunakan adalah sebagai berikut:
 -`learning_rate`: Tingkat pembelajaran untuk setiap estimator dalam ensemble, diatur ke 0.05.
 -`random_state`: Seed untuk mengontrol randomness dalam pembangunan model, diatur ke 55.
 Setelah model dibuat, dilakukan pelatihan menggunakan data latih (X_train dan y_train), dan nilai MSE dari prediksi terhadap data latih dihitung menggunakan fungsi mean_squared_error dan disimpan dalam dataframe `models` pada baris yang sesuai dengan model Boosting dan kolom 'train_mse'.
 
-Dalam evaluasi model di atas, kita menggunakan Mean Squared Error (MSE) sebagai metrik untuk mengevaluasi performa model pada data latih dan data uji. Semakin kecil nilai MSE, semakin baik performa model dalam memprediksi target.
+Dalam evaluasi model di atas, Mean Squared Error (MSE) digunakan sebagai metrik untuk mengevaluasi performa model pada data latih dan data uji. Semakin kecil nilai MSE, semakin baik performa model dalam memprediksi target.
 
-Dari hasil evaluasi tersebut, kita dapat melihat bahwa metode yang memberikan MSE terendah pada data uji adalah Random Forest (RF), diikuti oleh Boosting, dan yang terakhir adalah KNN. Hal ini menunjukkan bahwa Random Forest adalah yang paling akurat di antara ketiga metode tersebut dalam memprediksi target pada dataset yang digunakan.
+Dari hasil evaluasi tersebut, dapat dilihat bahwa metode yang memberikan MSE terendah pada data uji adalah Random Forest (RF), diikuti oleh Boosting, dan yang terakhir adalah KNN. Hal ini menunjukkan bahwa Random Forest adalah yang paling akurat di antara ketiga metode tersebut dalam memprediksi target pada dataset yang digunakan.
 
 ## Evaluation
 
-![](https://previews.dropbox.com/p/thumb/ACRBbaTZxQU36rwZki9fP9qOljrYj6pUMrWzMee0ZIJ_Jg_gJQBUtK8rTiSei3Syp_FPaitnMzXKRCejaVx1AbZWcbuZ-1IM2xuDEtNIZRDwqmXx14m1k3rv4kSzlrsEE6D3MmjJZT3gz01VoGbMunH5l6e92wD5-LGPfmuyUK8bTB5s3iTPlagzm95Srt8CKstcWcYwKcIuyuk1-4ZFEscHy9Flr3fJmO3ittdkH3hCmG1Rn_OpIcO2_YKr18diqIyRNWhOX5RQD-sahNbJMIXSN8UEe5kMAOLNSCkrUXD9iNFdv0HAQAap2bXnRXRXYQHKsP2lE6apNTr7MyGAqXEe/p.png)
-
+![mse](https://ibb.co/0Csg7c0)
 Model Random Forest (RF) memiliki nilai MSE terendah pada data uji, yaitu sekitar 458,605. Model KNN memiliki nilai MSE sekitar 960,739, sedangkan model Boosting memiliki nilai MSE yang paling tinggi, yaitu sekitar 49,779,899,023.
 
-![](https://previews.dropbox.com/p/thumb/ACTp_RwzKrMrEW5MSh2XHJb6jP4BbcReFHP3qeafVRfN3ucQxuvyHgQKumwCw3nuNXgH0931eWSXlGgvwo40pYZG7lOmvDgoCJGqpnXJzOsQumE4k4AOd4Tx1BQ6zuSWuqCbOb0Mj3KOdc76MocEr-bYrZt8cO0zP_-5ZW8TC5QBbMHDrNdua7Zbs2lnfoipV5oPPSxSUNe9Dde3VkZ_j83KKc9TTVY32JoErVDH1lP9E68BNY0_HID0POhawpWs8rH123mmtGIiOBC5wKSJY0y1-2M2j_g3tdiUtFuzfB0Z6V-T5BbgxvdyUjsrgWu3cvROiwTfnyIFb4sKHxce7KOY/p.png)
+![](https://ibb.co/0Csg7c0)
 
 Berdasarkan hasil tersebut, dapat disimpulkan bahwa model Random Forest (RF) adalah yang paling akurat di antara ketiga model tersebut dalam memprediksi target pada dataset yang digunakan.
-Pada bagian ini anda perlu menyebutkan metrik evaluasi yang digunakan. Lalu anda perlu menjelaskan hasil proyek berdasarkan metrik evaluasi yang digunakan.
