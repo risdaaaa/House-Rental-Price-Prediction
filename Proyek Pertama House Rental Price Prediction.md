@@ -56,19 +56,27 @@ Dataset ini terdiri dari beberapa kolom yang mencakup informasi terkait properti
 
 ### Univariate Analysis
 ##### Categorical Features
-![](https://previews.dropbox.com/p/thumb/ACQHDMVk7PQG-Vx5edufJ-9AW1lnJI2rQeZf4hhTv_v5-tsYshZuaCHKopoJqyhyUrHqXGoRtSHHsv1n8k6Mrmu8r7junl1wGgd4gwplnqlUKCadQJ8eRX8RRYNcWTF0lPePwUx9MCedCTrFwbjIwmjvTViVU5AJfIOB6cwVXTxxof4EiybLrNnkUzVAn8M2gsiChn2VFebM2olZ3zVPXX_nrecyCF2RFe1WbGg_vq6_EIrv2EEazgoVixRGGazTxlc-obpDHylDaueR-1zfAX9JCjp6k7G-6PmcnB6NK_g53VjFB4cg_xxNtSp5V80_Esm1d20Fc6c4hzCsfny1zInd/p.png)
+
+![numerik-1](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/b6a6bb36-d4db-4b4f-9450-77ff071855d8)
 - Properti yang dikategorikan sebagai 'apartment' memiliki harga setara atau lebih besar dari $200,000. Sementara itu, properti dengan tipe 'house', 'townhouse', 'condo', 'duplex', 'manufactured', 'cottage/cabin', 'loft', 'flat', 'in-law', 'land', dan 'assisted living' memiliki harga kurang dari $50,000.
 ##### Numerical Features
-![](https://previews.dropbox.com/p/thumb/ACRAIQEbCSsSNPl-GYZibtbtOkmmS15cSs_9bfxmV-PtR08c4xYHpoSjuvczv1HHZutd-Q5lq7TpLNWhsX3xzHAG7t8hPzRgzZKi-BllELX6WYsMAEIgfq6PSlc7BGxBdGkNB-YkNyifLY-0apqNth20YPzMkdE9UOWUni66BGYSTV2p_w7giiII38_eXr_bJ5pOcBqQHkEUdv2xN6LO0JggenFLtbShnI8i4iJZiDaD5CSjpDp0A2k3O2YC1nWZR3DL5JJbAwSIdWHtwOFENy1seQqaXxsUeFwkAquiy22ueKfw2hjOSqVfcR5NzXJ86MLyUAEzR0CtyDkD5jQl6HdE/p.png)
+
+![numerical](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/94344f9a-288c-4a64-9331-d1b4d50128b3)
 
 ### Multivariate Analysis
 ##### Categorical Features
-![](https://previews.dropbox.com/p/thumb/ACSpB-lxARytarlVyugv2EDQxyN167Uhf6BJuW2IKTYYNcrAl4Fa3geVOtRjxHtwg2rEqbxlN2mqU9Du96G7gK22hyTbSMBXIbBxldfw9PJDFU2jGSE2M1D-YjO7SOANawd9xEU5TdWSuoUsFbIhAe73_Rq9GQlBWiYGOwCyUvPianyQ8VtUCsHYhsNUkUWIg2VFtdZe9U-upoLxylhTWR0ep0N_V76i0uCIcCRagTYXwWxfByijX6VI4q4fgbudgq1FsZ5odm2S1e0FZJdhV-bTH50Tpb6T0iQmUY1CE1SbK7cilT-7y2vXs8h194IlILacPT_8TvlC9yk_R-MzrdEJ/p.png)
+
+![relatif-price](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/1c934afc-db9f-48a5-90a5-b00423101bef)
+
 - Fitur type rumah memiliki dampak signifikan terhadap harga sewa rata-rata, terutama ketika tipe propertinya adalah apartemen.
 ##### Numerical Features
-![](https://previews.dropbox.com/p/thumb/ACRo87QcuDYh1Tk2yZ_vQ1DAoD4TVSe1mBQW5ruplDgzYFTiE_jnXGfs70-hgqo36bpgflwz1QBc0t8LwKT_0PDiT0p9wsVKDEkjPS8jY055yKs0Xl5q3W7bRtFyewiYc4QqKvbx0_BOGBCJZtvmrKsNVo_90HGJ8fz3fuwMxGInKo3ml_nd6rWSKtM6jg0WKSqz1HOO4PKI82MFCiNW_SklSqdBZjDeEh6n4CQz3ARD90zHh_dvKsRcKEWVC71I0mXqMFGVJDbg6mqaF0shkilY-ksXImbY5ygwh_RlG3dlVwAyPj6tnSo5csQuf2KPdES9b7NOMto5voYRsXR5rgfR/p.png)
+
+![numerical-features](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/80748496-965a-4647-95ca-1d4f884ad9b4)
+
 ##### Correlation Matrix
-![](https://previews.dropbox.com/p/thumb/ACS0khxLpIpz2NTufKvRWqiu3PxfjROwkZx2olXxIXnEor-Y90RC86Xm6MUD-txrVvmRq0W9vuM8P7TmQqMUDFSYnR3BdDVHGzfBeKMKBa-xwKsyyPNUAhHJuv_Zx_Ja5Iw-H12zqeOi4i8-i3e5UUDNTNAWALbXzgK6mAPM5WDgywJfoyPs0NcO41lD7_OzFwqV0Ii6ni8yrDaHzfl3plXmay08NyaAD5KlzQP5xeM1MNizG6ECz6y93_yuK6r96k6DJGwpB-3aT8hGBeLf-86Au3rAVYIzuR4U8_zfIg7BdHk6V6Or0cPjilQvvFG1-W4szhxSwVmNtoAghxikBm7Q/p.png)
+
+![correlation](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/4d81a89f-af34-446b-b009-2ea708f8e3a4)
+
 - Fitur 'cats_allowed' dan 'dogs_allowed' memiliki korelasi yang sangat tinggi dengan angka 0,89.
 
 ## Data Preparation
@@ -77,11 +85,15 @@ One-hot encoding adalah teknik yang mengubah variabel kategori menjadi represent
 - Reduksi Dimensi dengan PCA
 Reduksi dimensi dengan PCA adalah teknik yang berguna untuk mengurangi kompleksitas data dengan memproyeksikan fitur-fitur asli ke dalam ruang dimensi yang lebih rendah. Misalnya, jika kita memiliki fitur "cats_allowed" dan "dogs_allowed" dalam dataset, kita dapat menggunakan PCA untuk menggabungkan kedua fitur ini menjadi satu dimensi baru yang mencerminkan variasi terbesar dalam data. Dengan demikian, kita dapat mengurangi dimensi dataset tanpa kehilangan informasi penting tentang kehadiran hewan peliharaan di properti.
 - Train-Test-Split
-![](https://previews.dropbox.com/p/thumb/ACTSH1FQuFtOLTx1JHkTWaS0jY72_u08nPwsL2OLxDlZPtAITSCuU0m0qeUnBpB8lshSiRKCgw9JSe63b_i2daza8-eHLGGLg6goUomiRfl9grKlM71mU4ZFCiS1EmmBqp_P_msrVOLUuL-YT2H5BvYFcpLtmXr9PzM28Qe5maCpeVDOG339bcen09HHvOcx8RCGCJkF0oU2qg0Bxy15zWN2BIKgx3vEmSta8oWfS7w1lc8f--mde7zkzz0sw-AZXEsBJa3Fo_oTJbhZYlcb351dBnL-rQxnvz5MtYfErjvLcxYL9juPhhobPiZpSL8nPwgzWp8Uea371K88G3xj5meX/p.png)
+  
+![dataset](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/af36f1e8-fd08-4d23-9ac8-38d4ed44cffb)
+
 Jumlah data adalah 265190 sampel. Pada train test spit, data akan dibagi menjadi data train dan data test. Data train akan digunakan untuk membangun model, sedangkan data test akan digunakan untuk menguji performa model. Pada proyek ini data train sebesar 238671 dan data test sebesar 26519.
 
 - Standarisasi
-![](https://previews.dropbox.com/p/thumb/ACSPdPhdAfO4qbavSaqRGM1DBCI0WOf9dkpvC_mTDpKjekZcIl4YH6NMiOWhkK20HX9kw4fFbQP6QmKwvohM4dzJJb95a7vIB0Tk_v1zU0O45UXTj5t4sdlKws0fasN1o13yNU7iDD_AiM632b1ptVJsb0UdOWu8dfTJlLxFpzGlYkSdv3IJxlCYEFv8gE9uH89sbFDA5_O5ecRLbA4lkFHaIT4BZLRmsoPkSPwwT2yjQPCAbmZ0U47NFUeX03zCou-FUSOeCa-V8sge6gMs21ryZekHK6lgEsS-k2xxeiZVb__cnF18kKBwmENc_33H3wUchsM9d71SbWqp1Ynm8wa3/p.png)
+  
+![standarisasi](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/c23bf8e9-8758-4dfe-8059-7ef863d0ea20)
+
 StandardScaler melakukan proses standarisasi fitur dengan mengurangkan mean (nilai rata-rata) kemudian membaginya dengan standar deviasi untuk menggeser distribusi.  StandardScaler menghasilkan distribusi dengan standar deviasi sama dengan 1 dan mean sama dengan 0. Sekitar 68% dari nilai akan berada di antara -1 dan 1.
 
 ## Modeling
@@ -106,10 +118,10 @@ Dalam evaluasi model di atas, Mean Squared Error (MSE) digunakan sebagai metrik 
 Dari hasil evaluasi tersebut, dapat dilihat bahwa metode yang memberikan MSE terendah pada data uji adalah Random Forest (RF), diikuti oleh Boosting, dan yang terakhir adalah KNN. Hal ini menunjukkan bahwa Random Forest adalah yang paling akurat di antara ketiga metode tersebut dalam memprediksi target pada dataset yang digunakan.
 
 ## Evaluation
+![MSE](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/861f490e-3582-4fc7-8112-da3a5f4ab0b0)
 
-![mse](https://ibb.co/0Csg7c0)
 Model Random Forest (RF) memiliki nilai MSE terendah pada data uji, yaitu sekitar 458,605. Model KNN memiliki nilai MSE sekitar 960,739, sedangkan model Boosting memiliki nilai MSE yang paling tinggi, yaitu sekitar 49,779,899,023.
 
-![](https://ibb.co/0Csg7c0)
+![msee](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/d666a572-b187-4dd2-97a2-05ba71e8b0b7)
 
 Berdasarkan hasil tersebut, dapat disimpulkan bahwa model Random Forest (RF) adalah yang paling akurat di antara ketiga model tersebut dalam memprediksi target pada dataset yang digunakan.
