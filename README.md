@@ -24,7 +24,9 @@ Prediksi harga sewa rumah memiliki implikasi besar bagi investor, pemilik proper
 
 ## Data Understanding
 Data ini awalnya dikumpulkan oleh Austin Reese pada tanggal 7 Januari 2020 dari Craiglist.org. Sumber data ini bersifat publik.
-Dataset yang digunakan [house-rent-prediction-dataset](https://www.kaggle.com/datasets/rkb0023/houserentpredictiondataset)
+
+Dataset yang digunakan [house-rent-prediction-dataset](https://www.kaggle.com/datasets/rkb0023/houserentpredictiondataset).
+
 Informasi pada dataset:
 - Dataset memiliki format CSV (Comma-Seperated Values).
 - Dataset memiliki 265190 sample dan 22 fitur.
