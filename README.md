@@ -107,6 +107,17 @@ Jumlah data adalah 265190 sampel. Pada train test spit, data akan dibagi menjadi
   
 ![standarisasi](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/c23bf8e9-8758-4dfe-8059-7ef863d0ea20)
 
+|   | animals  | sqfeet  | beds  | baths  | smoking_allowed  | wheelchair_access  | electric_vehicle_charge  | comes_furnished  |
+|---|---|---|---|---|---|---|---|---|
+| count  | 238671.0  | 238671.0  | 238671.0  | 238671.0  | 238671.0  | 238671.0  | 238671.0  | 238671.0  |
+| mean  |  0.0	 | -0.0	  | 0.0	  |  0.0	 |  0.0	 |  -0.0	 | -0.0	  | -0.0	  |
+| std  |  1.0 | 1.0  | 1.0  | 1.0  |  1.0 | 1.0  |  1.0 | 1.0  |
+| min  | -0.7  | -0.0  | -0.5  | -2.3  | -1.7  |  -0.3 |  -0.1 |  -0.2 |
+| 25%  |  -0.7	 |  -0.0 | -0.2  |  -0.8 | -1.7  | -0.3  |  -0.1 | -0.2  |
+| 50%  | -0.7  | -0.0  | 0.0  | -0.8	  | 0.6  | -0.3  | -0.1  | -0.2  |
+| 75%  | 1.6  | 0.0  | 0.0  | 0.8  |  0.6 | -0.3  | -0.1  |  -0.2 |
+| max  |  1.6 | 347.4  | 283.0  | 115.9  | 0.6  |  3.4 |  8.3 | 4.4  |
+
 Gambar 6. Hasil standarisasi
 
 StandardScaler melakukan proses standarisasi fitur dengan mengurangkan mean (nilai rata-rata) kemudian membaginya dengan standar deviasi untuk menggeser distribusi.  StandardScaler menghasilkan distribusi dengan standar deviasi sama dengan 1 dan mean sama dengan 0. Sekitar 68% dari nilai akan berada di antara -1 dan 1.
@@ -135,11 +146,18 @@ Dari hasil evaluasi tersebut, dapat dilihat bahwa metode yang memberikan MSE ter
 ## Evaluation
 ![MSE](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/861f490e-3582-4fc7-8112-da3a5f4ab0b0)
 
+|           |  Train              |   Test             |
+|-----------|---------------------|--------------------|
+| KNN       | 27300919949.457352  | 960738.501214      |
+| RF        | 22340979067.296822  | 458604.857434      | 
+| Boosting  | 65426441569.944214  | 49779899023.228065 | 
+
 Gmabar 7. MSE
 
 Model Random Forest (RF) memiliki nilai MSE terendah pada data uji, yaitu sekitar 458,605. Model KNN memiliki nilai MSE sekitar 960,739, sedangkan model Boosting memiliki nilai MSE yang paling tinggi, yaitu sekitar 49,779,899,023.
 
 ![msee](https://github.com/risdaaaa/House-Rental-Price-Prediction/assets/147994396/d666a572-b187-4dd2-97a2-05ba71e8b0b7)
+
 
 Gambar 8. Grafik MSE
 
